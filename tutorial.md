@@ -52,8 +52,11 @@
 \includegraphics[height=4cm]{images/корги.jpg}
 ```
 [border = 4] - здесь мы указываем толщину рамки
+
 (5.1cm, 1.6cm) - координаты на картинке 
+
 (1cm, 1cm) - размер прямоугольника (то что будет увеличено)
+
 * Buttons:
 -- \beamergotobutton{текст}
 -- \beamerskipbutton{текст}
