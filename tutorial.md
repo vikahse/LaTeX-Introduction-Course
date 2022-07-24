@@ -148,3 +148,55 @@
 \cellcolor[HTML]{ffbf94}
 ```
 * Очень хороший сайт с подборкой цветов: https://encycolorpedia.ru/f5fcba
+* Чтобы сгруппировать фотографии вместе, используем следующую структуру
+```sh
+\begin{figure}
+\centering
+     \begin{subfigure}[b]{0.3\textwidth}
+         \label{pic1} 
+         \centering
+         \includegraphics[width=\textwidth]{image}
+         \caption{текст}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.3\textwidth}
+         \label{pic2}
+         \centering
+         \includegraphics[width=\textwidth]{image}
+         \caption{Текст}
+     \end{subfigure}
+\end{figure}
+```
+* Библиография: создаем отдельный файл в проекте .bib и вставляем туда нужные статьи (можно использовать https://scholar.google.com), затем чтобы в самом тексте сослаться на произведение, пишем \cite{произведение}, а в конце документа не забываем приписать \printbibliography 
+* Чтобы вставить изображение в таблицу, можно воспользоваться следующим блоком кода
+```sh
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{ m{55mm} }
+  \centering
+    \begin{minipage}{.3\textwidth}
+      \includegraphics[height=30mm]{image}
+    \end{minipage}
+  \end{tabular}
+  \caption{текст}
+  \label{текст}
+\end{table}
+```
+* Чтобы как раз сослаться в любом месте документа на картинку, таблицу, пишем \ref{picture:1}, где "picture:1" и есть \label{}, который мы указываем при создании картинок, таблиц 
+* Галочка: \checkmark
+* Если необходимо в таблице в левом верхнем углу сделать в клетке диагональ, то делаем это через команду 
+```sh
+\backslashbox{yes}{no} & ...
+```
+* Еще один вид цитаты среди текста 
+```sh
+\begin{displayquote}
+  текст
+\end{displayquote}
+```
+* Выравнивание влево, вправо, по центру
+```sh
+\begin{flushleft/flushright/center} 
+  ...
+\end{flushleft/flushright/center} 
+```
