@@ -58,9 +58,13 @@
 (1cm, 1cm) - размер прямоугольника (то что будет увеличено)
 
 * Buttons:
--- \beamergotobutton{текст}
--- \beamerskipbutton{текст}
--- \beamerreturnbutton{текст}
+
+- \beamergotobutton{текст}
+
+- \beamerskipbutton{текст}
+
+- \beamerreturnbutton{текст}
+
 * Overlays: для созданий списков, пункты которых появляются постепенно
 ```sh
 \begin{itemize}
