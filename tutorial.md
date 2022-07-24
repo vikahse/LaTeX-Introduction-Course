@@ -59,11 +59,11 @@
 
 * Buttons:
 
-- \beamergotobutton{текст}
+-- \beamergotobutton{текст}
 
-- \beamerskipbutton{текст}
+-- \beamerskipbutton{текст}
 
-- \beamerreturnbutton{текст}
+-- \beamerreturnbutton{текст}
 
 * Overlays: для созданий списков, пункты которых появляются постепенно
 ```sh
