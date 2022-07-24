@@ -1,8 +1,8 @@
-# Talk.Global
+# LaTeX
 
-### Группа: 11 - МИ - 1
-### Электронная почта: Queen-0612@yandex.ru
-### VK: https://vk.com/at_one_day
+## _Tutorial_ 
+### Автор: Ковалевская Виктория Владимировна
+### Telegram: https://t.me/at_one_day
 
 
 
